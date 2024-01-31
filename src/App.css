@@ -1,7 +1,39 @@
-.App {
-  text-align: center;
+/* App.css */
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* App component styles */
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Header and Footer styles */
+header,
+footer {
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+/* Section styles */
+section {
+  margin: 20px 0;
+}
+
+/* Logo animation styles */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,6 +45,7 @@
   }
 }
 
+/* Header styles */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,10 +57,12 @@
   color: white;
 }
 
+/* Link styles */
 .App-link {
   color: #61dafb;
 }
 
+/* Logo spin animation keyframes */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
